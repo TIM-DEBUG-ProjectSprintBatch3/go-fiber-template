@@ -1,15 +1,15 @@
 package di
 
 import (
+	authJwt "github.com/TIM-DEBUG-ProjectSprintBatch3/go-fiber-template/src/auth/jwt"
+	"github.com/TIM-DEBUG-ProjectSprintBatch3/go-fiber-template/src/database/postgre"
+	userController "github.com/TIM-DEBUG-ProjectSprintBatch3/go-fiber-template/src/http/controllers/user"
+	loggerZap "github.com/TIM-DEBUG-ProjectSprintBatch3/go-fiber-template/src/logger/zap"
+	userRepository "github.com/TIM-DEBUG-ProjectSprintBatch3/go-fiber-template/src/repositories/user"
+	userService "github.com/TIM-DEBUG-ProjectSprintBatch3/go-fiber-template/src/services/user"
+	"github.com/TIM-DEBUG-ProjectSprintBatch3/go-fiber-template/src/validation"
 	"github.com/go-playground/validator/v10"
 	"github.com/jackc/pgx/v5/pgxpool"
-	authJwt "github.com/rafitanujaya/go-fiber-template/src/auth/jwt"
-	"github.com/rafitanujaya/go-fiber-template/src/database/postgre"
-	userController "github.com/rafitanujaya/go-fiber-template/src/http/controllers/user"
-	loggerZap "github.com/rafitanujaya/go-fiber-template/src/logger/zap"
-	userRepository "github.com/rafitanujaya/go-fiber-template/src/repositories/user"
-	userService "github.com/rafitanujaya/go-fiber-template/src/services/user"
-	"github.com/rafitanujaya/go-fiber-template/src/validation"
 	"github.com/samber/do/v2"
 )
 

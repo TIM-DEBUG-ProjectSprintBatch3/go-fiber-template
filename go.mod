@@ -1,4 +1,4 @@
-module github.com/rafitanujaya/go-fiber-template
+module github.com/TIM-DEBUG-ProjectSprintBatch3/go-fiber-template
 
 go 1.23.4
 

@@ -3,10 +3,10 @@ package userController
 import (
 	"context"
 
+	"github.com/TIM-DEBUG-ProjectSprintBatch3/go-fiber-template/src/exceptions"
+	"github.com/TIM-DEBUG-ProjectSprintBatch3/go-fiber-template/src/model/dtos/request"
+	userService "github.com/TIM-DEBUG-ProjectSprintBatch3/go-fiber-template/src/services/user"
 	"github.com/gofiber/fiber/v2"
-	"github.com/rafitanujaya/go-fiber-template/src/exceptions"
-	"github.com/rafitanujaya/go-fiber-template/src/model/dtos/request"
-	userService "github.com/rafitanujaya/go-fiber-template/src/services/user"
 	"github.com/samber/do/v2"
 )
 

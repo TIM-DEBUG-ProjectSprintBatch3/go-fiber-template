@@ -3,14 +3,14 @@ package httpServer
 import (
 	"fmt"
 
+	"github.com/TIM-DEBUG-ProjectSprintBatch3/go-fiber-template/src/config"
+	"github.com/TIM-DEBUG-ProjectSprintBatch3/go-fiber-template/src/di"
+	userController "github.com/TIM-DEBUG-ProjectSprintBatch3/go-fiber-template/src/http/controllers/user"
+	"github.com/TIM-DEBUG-ProjectSprintBatch3/go-fiber-template/src/http/middlewares"
+	"github.com/TIM-DEBUG-ProjectSprintBatch3/go-fiber-template/src/http/routes"
+	userroutes "github.com/TIM-DEBUG-ProjectSprintBatch3/go-fiber-template/src/http/routes/user"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
-	"github.com/rafitanujaya/go-fiber-template/src/config"
-	"github.com/rafitanujaya/go-fiber-template/src/di"
-	userController "github.com/rafitanujaya/go-fiber-template/src/http/controllers/user"
-	"github.com/rafitanujaya/go-fiber-template/src/http/middlewares"
-	"github.com/rafitanujaya/go-fiber-template/src/http/routes"
-	userroutes "github.com/rafitanujaya/go-fiber-template/src/http/routes/user"
 	"github.com/samber/do/v2"
 )
 

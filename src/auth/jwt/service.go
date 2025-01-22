@@ -1,8 +1,8 @@
 package authJwt
 
 import (
+	"github.com/TIM-DEBUG-ProjectSprintBatch3/go-fiber-template/src/config"
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/rafitanujaya/go-fiber-template/src/config"
 	"github.com/samber/do/v2"
 )
 

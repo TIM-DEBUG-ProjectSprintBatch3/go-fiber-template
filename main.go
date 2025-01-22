@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
+	"github.com/TIM-DEBUG-ProjectSprintBatch3/go-fiber-template/src/database/migrations"
+	"github.com/TIM-DEBUG-ProjectSprintBatch3/go-fiber-template/src/di"
+	httpServer "github.com/TIM-DEBUG-ProjectSprintBatch3/go-fiber-template/src/http"
 	"github.com/joho/godotenv"
 	_ "github.com/joho/godotenv/autoload"
-	"github.com/rafitanujaya/go-fiber-template/src/database/migrations"
-	"github.com/rafitanujaya/go-fiber-template/src/di"
-	httpServer "github.com/rafitanujaya/go-fiber-template/src/http"
 )
 
 func main() {
